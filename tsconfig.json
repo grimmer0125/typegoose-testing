@@ -10,7 +10,8 @@
         "outDir": "lib",
         "moduleResolution": "node",
         "target": "es6",
-        "module": "commonjs",
+        "module": "ES6",
+        "allowSyntheticDefaultImports": true,
         "newLine": "LF",
         "sourceMap": true,
         "removeComments": true,
@@ -22,7 +23,7 @@
         "tsBuildInfoFile": ".tsbuildinfo",
         "lib": [
             "esnext"
-        ]
+        ],
     },
     "include": [
         "src/**/*"

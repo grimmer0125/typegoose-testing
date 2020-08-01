@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Bootstrap TS Project All Files needed for TS",
   "main": "lib/app.js",
+  "type": "module",
   "engines": {
     "node": ">=8.10.0"
   },
